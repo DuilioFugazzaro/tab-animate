@@ -1,8 +1,4 @@
 
-
-
-
-
 $(document).ready(function() {
 
       var panel = $('.panel').css('width');
@@ -39,9 +35,5 @@ $(document).ready(function() {
         })
 
       });
-
-
-
-
 
 });
