@@ -1,0 +1,48 @@
+body {
+  padding: 0%;
+  margin: 0%;
+}
+
+.container ul {
+  margin-top: 20px;
+  position: relative;
+}
+
+.container a {
+  padding: 8px 80px;
+  color: rgba(22, 20, 20, 0.64);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.container .nav-link {
+  position: relative;
+  z-index: 99999;
+}
+
+.innerContent {
+  margin: 5% 1%;
+  border: 1px solid rgba(0, 0, 0, 0.178);
+  border-radius: 3px;
+  padding: 100px 0px;
+}
+
+.innerContent i {
+  font-size: 75px;
+}
+
+.panel {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 0, 0, 0.788);
+  border-radius: 3px;
+  cursor: pointer;
+  z-index: 0;
+  box-shadow: 2px 5px 20px rgba(209, 14, 14, 0.479);
+}
+
+.active {
+  color: white !important;
+}
